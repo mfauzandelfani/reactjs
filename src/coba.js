@@ -16,7 +16,11 @@ export default class coba extends Component {
   }
   render() {
     return (
-        <><div> Baca </div><button onClick={this.increment}> +</button><button onClick={this.decrement}> -</button></>
+        <div> 
+        <h1>Counter : {this.state.counter}</h1>
+        <button onClick={this.increment}> +</button>
+        <button onClick={this.decrement}> -</button>
+        </div>
     )
     
   }
