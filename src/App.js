@@ -6,16 +6,12 @@ import CounterHook from './CounterHook';
 import Employee from './Employee';
 import Parent from './Parent Child/Parent';
 import ParentClass from './ParentChildClass/ParentClass';
+import Route from './Route';
 
 function App() {
   return (
     <div>
-      <Coba />
-      <CounterArrow />
-      <CounterHook />
-      <Employee  />
-      <Parent />
-      <ParentClass />
+<Route/>
     </div>
   )
 }
